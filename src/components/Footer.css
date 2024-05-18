@@ -1,0 +1,52 @@
+.footer {
+    background-image: url('https://i.postimg.cc/X7QBT3pG/Rectangle-126.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap;
+  }
+  
+  /* Increase color intensity of background image */
+ 
+
+  .footer-section {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust size as needed */
+    margin-top: 80px;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #000; /* Set link color to black */
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add vertical lines */
+  .footer-section:not(:last-child) {
+    border-right: 3px solid #000; 
+    padding-right: 20px;
+    margin-right: 20px;
+    position: relative;
+    height: 320px;
+  }
+  

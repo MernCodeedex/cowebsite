@@ -1,0 +1,47 @@
+.mains{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.image123 {
+    position: relative;
+}
+
+.image123 img {
+    width: 100%;
+    height: auto;
+}
+
+.lead {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    padding: 60px;
+    width: 60%; 
+    color: white;
+    height: 100%;
+    z-index: 1; 
+
+}
+
+
+
+.lead p {
+    font-size: px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
